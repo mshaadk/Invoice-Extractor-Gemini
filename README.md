@@ -9,29 +9,29 @@ A web application that allows users to upload invoice images and ask questions a
 ## Installation
 1. **Clone the repository**:
 
-  ```bash
-  git clone https://github.com/mshaadk/Invoice-Extractor-Gemini.git
-  cd Invoice-Extractor-Gemini
-  ```
+    ```bash
+    git clone https://github.com/mshaadk/Invoice-Extractor-Gemini.git
+    cd Invoice-Extractor-Gemini
+    ```
 
 2. **Create a `.env` file in the project root and add your Google API key**:
 
-  ```makefile
-  GOOGLE_API_KEY=your_api_key_here
-  ```
+    ```makefile
+    GOOGLE_API_KEY=your_api_key_here
+    ```
 
 3. **Install the required packages**:
 
-  ```bash
-  pip install -r requirements.txt
-  ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Running the Application
 1. Run the Streamlit app with the following command:
 
-  ```bash
-  streamlit run app.py
-  ```
+    ```bash
+    streamlit run app.py
+    ```
 
 2. Open your browser and go to `http://localhost:8501` to access the Invoice Extractor.
 
